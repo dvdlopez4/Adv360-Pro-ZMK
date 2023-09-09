@@ -1,8 +1,20 @@
+macro_macro_winleft: macro_macro_winleft{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_winleft";
+#binding-cells = <0>;
+bindings = <&sk LGUI>, <&sk LEFT_CONTROL>, <&kp LEFT>;
+};
+macro_winright: macro_winright{
+compatible = "zmk,behavior-macro";
+label = "macro_winright";
+#binding-cells = <0>;
+bindings = <&sk LGUI>, <&sk LEFT_CONTROL>, <&kp RIGHT>;
+};
 macro_shiftinsert: macro_shiftinsert{
 compatible = "zmk,behavior-macro";
 label = "macro_shiftinsert";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp INSERT>;
+bindings = <&mt LEFT_SHIFT INSERT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
