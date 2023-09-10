@@ -1,3 +1,15 @@
+macro_moveleftscreen: macro_moveleftscreen{
+compatible = "zmk,behavior-macro";
+label = "macro_moveleftscreen";
+#binding-cells = <0>;
+bindings = <&kp LG(LS(LEFT))>;
+};
+macro_moverightscreen: macro_moverightscreen{
+compatible = "zmk,behavior-macro";
+label = "macro_moverightscreen";
+#binding-cells = <0>;
+bindings = <&kp LG(LS(RIGHT))>;
+};
 macro_winleft: macro_winleft{
 compatible = "zmk,behavior-macro";
 label = "macro_winleft";
